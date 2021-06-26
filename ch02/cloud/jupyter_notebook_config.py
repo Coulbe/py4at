@@ -28,4 +28,4 @@ c.NotebookApp.open_browser = False
 
 # ROOT ACCESS
 # allow Jupyter to run from root user
-c.NotebookApp.allow_root = True
+c.NotebookApp.allow_root = True 

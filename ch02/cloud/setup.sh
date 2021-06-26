@@ -16,5 +16,5 @@ MASTER_IP=$1
 scp install.sh root@${MASTER_IP}:
 scp mycert.pem mykey.key jupyter_notebook_config.py root@${MASTER_IP}:
 
-# EXECUTING THE INSTALLATION SCRIPT
+# EXECUTING THE INSTALLATION SCRIPT 
 ssh root@${MASTER_IP} bash /root/install.sh
