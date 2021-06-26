@@ -12,7 +12,7 @@
 FROM ubuntu:latest  
 
 # information about maintainer
-MAINTAINER yves
+MAINTAINER youssouf
 
 # add the bash script
 ADD install.sh /
